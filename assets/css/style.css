@@ -1,0 +1,23 @@
+.all-code{
+    height: 100vh;
+}
+
+header{
+    height: 70px;
+    background-color: lightblue;
+}
+
+main{
+    height: calc(100% - 70px);
+}
+
+#side{
+    background-image: url(../img/sidebar-bg.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-dark-custom{
+    background-color: #0A1E34;
+}
