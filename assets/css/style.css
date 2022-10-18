@@ -1,23 +1,62 @@
-.all-code{
-    height: 100vh;
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    height: 70px;
-    background-color: lightblue;
+    height: 85px;
+}
+
+.gold{
+    color: rgb(244, 176, 4);
+}
+
+.form-control2{
+    background-color: #e9ecef;
+    width: 100%;
 }
 
 main{
-    height: calc(100% - 70px);
+    height: calc(100vh - 85px);
 }
 
-#side{
+.font{
+    font-size: 14px;
+}
+
+
+.gg{
+    background-color: rgb(0, 81, 255);
+    height: auto;
+    
+}
+
+.of{
+    height: calc(100vh - 85px);
+    overflow: auto;
+}
+
+.side-bar{
     background-image: url(../img/sidebar-bg.png);
-    height: 100%;
-    background-repeat: no-repeat;
     background-size: cover;
+    height: calc(100vh - 85px);
 }
 
-.bg-dark-custom{
-    background-color: #0A1E34;
+.fa-forward{
+    color: white;
+}
+
+.mw{
+    max-width: 7%;
+}
+
+tr{
+    vertical-align: middle;
+}
+
+.offcanvas{
+    width: 80%;
+}
+
+.lhov:hover{
+    background-color: rgb(124, 124, 124);
 }
